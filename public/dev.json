@@ -1,0 +1,123 @@
+[
+    {
+
+"id": "vuejs",
+"name": "Vue.js",
+"category": "Frontend Framework",
+"description": "An approachable, performant and versatile framework for building web user interfaces.",
+"icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
+"rating": 4.7,
+"difficulty": "Beginner-Friendly",
+"badge": "Approachable"
+},
+{
+"id": "angular",
+"name": "Angular",
+"category": "Frontend Framework",
+"description": "A component-based framework for building scalable web applications with rich built-in features.",
+"icon": "https://icon.icepanel.io/Technology/svg/AngularJS.svg",
+"rating": 4.5,
+"difficulty": "Advanced",
+"badge": "Enterprise"
+},
+{
+"id": "flutter",
+"name": "Flutter",
+"category": "Mobile / Cross-Platform",
+"description": "Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop.",
+"icon": "https://icon.icepanel.io/Technology/svg/Flutter.svg",
+"rating": 4.8,
+"difficulty": "Intermediate",
+"badge": "Cross-Platform"
+},
+{
+"id": "golang",
+"name": "Go",
+"category": "Language",
+"description": "An open-source programming language supported by Google that makes it easy to build simple, fast, and reliable software.",
+"icon": "https://icon.icepanel.io/Technology/svg/Go.svg",
+"rating": 4.8,
+"difficulty": "Intermediate",
+"badge": "High Concurrency"
+},
+{
+"id": "rust",
+"name": "Rust",
+"category": "Language",
+"description": "A language empowering everyone to build reliable and efficient software with memory safety guarantees.",
+"icon": "https://icon.icepanel.io/Technology/svg/Rust.svg",
+"rating": 4.9,
+"difficulty": "Advanced",
+"badge": "Most Loved"
+},
+{
+"id": "springboot",
+"name": "Spring Boot",
+"category": "Backend Framework",
+"description": "An extension of the Spring framework that eliminates boilerplate configuration to create stand-alone Java applications.",
+"icon": "https://icon.icepanel.io/Technology/svg/Spring.svg",
+"rating": 4.7,
+"difficulty": "Advanced",
+"badge": "Enterprise Standard"
+},
+{
+"id": "flask",
+"name": "Flask",
+"category": "Backend Framework",
+"description": "A lightweight WSGI web application framework in Python designed to make getting started quick and easy.",
+"icon": "https://icon.icepanel.io/Technology/png-by-size/128/Flask.png",
+"rating": 4.6,
+"difficulty": "Beginner-Friendly",
+"badge": "Micro-Framework"
+},
+{
+"id": "supabase",
+"name": "Supabase",
+"category": "BaaS / Database",
+"description": "An open-source Firebase alternative providing database, auth, edge functions, and real-time APIs.",
+"icon": "https://icon.icepanel.io/Technology/png-by-size/128/Supabase.png",
+"rating": 4.8,
+"difficulty": "Beginner-Friendly",
+"badge": "Firebase Alternative"
+},
+{
+"id": "firebase",
+"name": "Firebase",
+"category": "BaaS",
+"description": "Google's app development platform that helps you build, improve, and grow your app with built-in cloud services.",
+"icon": "https://icon.icepanel.io/Technology/svg/Firebase.svg",
+"rating": 4.6,
+"difficulty": "Beginner-Friendly",
+"badge": "All-in-One"
+},
+{
+"id": "kubernetes",
+"name": "Kubernetes",
+"category": "DevOps / Orchestration",
+"description": "An open-source system for automating deployment, scaling, and management of containerized applications.",
+"icon": "https://icon.icepanel.io/Technology/svg/Kubernetes.svg",
+"rating": 4.7,
+"difficulty": "Advanced",
+"badge": "Cloud Native"
+},
+{
+"id": "aws",
+"name": "Amazon Web Services",
+"category": "Cloud Platform",
+"description": "Comprehensive cloud computing platform offering over 200 fully featured services globally.",
+"icon": "https://icon.icepanel.io/Technology/svg/AWS.svg",
+"rating": 4.8,
+"difficulty": "Intermediate",
+"badge": "Market Leader"
+},
+{
+"id": "graphql-apollo",
+"name": "Apollo GraphQL",
+"category": "API / State Management",
+"description": "A comprehensive platform for building a unified supergraph that connects databases and microservices to UI.",
+"icon": "https://icon.icepanel.io/Technology/png-by-size/128/Apollo-GraphQL.png",
+"rating": 4.6,
+"difficulty": "Intermediate",
+"badge": "GraphQL Standard"
+}
+]
