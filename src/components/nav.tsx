@@ -6,7 +6,7 @@ export default function NavBar() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-            <nav className="sticky top-0 z-50 relative">
+            <nav className="sticky top-0 z-50 relative bg-white ">
                 <div className="flex justify-between items-center">
                     <button className="md:hidden p-2 hover:text-emerald-500" onClick={() => setOpen(!isOpen)}><RxHamburgerMenu /></button>
                     <img src={logo} alt="" />
