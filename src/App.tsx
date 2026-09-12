@@ -16,6 +16,7 @@ function App() {
   return (
     <>
     <div className="container mx-auto">
+      <h1>haha</h1>
       <NavBar></NavBar>
       <HeroSection></HeroSection>
       <Suspense fallback={<h2>Loding .. .. .. </h2>}>

@@ -1,26 +1,35 @@
-import { use } from 'react'
+import { use, useState } from 'react'
 import type { Itecnology } from '../type'
 import TechCard from './cards/tecCard'
-interface I_TechProps{
+import SellectedCaed from './cards/sellectedCard'
+interface I_TechProps {
     //  = is assignment
     //  : is type anotation
-    aItProp : Promise<Itecnology[]>
+    aItProp: Promise<Itecnology[]>
 }
-export default function Techonology({aItProp}:I_TechProps){
+
+export default function Techonology({ aItProp }: I_TechProps) {
     const TecData = use(aItProp)
-    return(
+    const [sellected, setSellected] = useState<Itecnology[]>([]) //I forget this snipt
+    const handelRemoveAll = ()=>{
+setSellected([])
+    }
+    return (
         <>
-        {/* <h1>{TecData.length}</h1>
-        <div>
-            <ul>{
-                TecData.map(tec => <li>{tec.name}</li> )
-                }</ul>
-        </div> */}
-        <div>
-            {
-                TecData.map((item, key) => <TechCard key={key} Teitem={item} />)
-            }
-        </div>
+            <div>
+                <div className='justify-center '>
+                    {
+                        TecData.map((item, key) => <TechCard key={key} Teitem={item}
+                            sellected={sellected}//it not nesessaty hear
+                            setSellected={setSellected} />)
+                    }
+                </div>
+                <div>
+                <div>{sellected.map((item, ind)=> <SellectedCaed key={ind} item={item} sellected={sellected} setSellected={setSellected}></SellectedCaed>)}</div>
+                <button onClick={() =>handelRemoveAll()}  className={`btn font-medium text-red-600 ${sellected.length <1? "hidden":"visible"}`}
+             >Remove All</button>
+                </div>
+            </div>
 
         </>
     )
