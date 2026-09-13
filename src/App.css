@@ -10,3 +10,10 @@
     display: none;
   }
 }
+
+p{
+  color: #64748B;
+}
+h2{
+  font-weight: bold;
+}

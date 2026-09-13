@@ -1,8 +1,8 @@
 import { IoStar } from "react-icons/io5";
 import type { Itecnology } from "../../type";
-import { useState, type Dispatch, type SetStateAction } from "react";
-import { BsCheckLg } from "react-icons/bs";
-import { Bounce, toast, Zoom } from "react-toastify";
+import { type Dispatch, type SetStateAction } from "react";
+
+import {  toast, Zoom } from "react-toastify";
 interface cardProps { //without interface you can not use the type 
     Teitem: Itecnology;
     sellected: Itecnology[]
@@ -30,7 +30,7 @@ export default function TechCard({ Teitem, sellected, setSellected }: cardProps)
     const added = sellected.some((item) => item.id === Teitem.id);
     return (
         <>
-            <div className="border border-amber-200 rounded-md m-2 p-2 flex flex-col justify-between ">
+            <div className={`border rounded-md m-2 p-2 ${added? "border-pink-600": "border-gray-500 "} flex flex-col justify-between` }>
                 <div className="flex justify-between ">
                     <div className="">
                         <img src={Teitem.icon} alt=''
@@ -43,7 +43,7 @@ export default function TechCard({ Teitem, sellected, setSellected }: cardProps)
                 </div>
                 <h3 className="font-bold text-lg">{Teitem.name}</h3>
                 <p>{Teitem.description}</p>
-                <div className="flex justify-between gap-2 text-sm mt-2 mb-2">
+                <div className="flex justify-between items-center gap-2 text-xs mt-2 mb-2">
                     <span className="badge bg-gray-100">{Teitem.category}</span>
                     <span>{Teitem.difficulty}</span>
                     <span className="flex items-center gap-1">

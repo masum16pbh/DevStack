@@ -7,7 +7,7 @@ interface sellectedCardprop {
     sellected: Itecnology[]
     setSellected: Dispatch<SetStateAction<Itecnology[]>>
 }
-export default function SellectedCaed({item,sellected,setSellected }: sellectedCardprop) {
+export default function SellectedCaed({item,setSellected }: sellectedCardprop) {
     const handelRemoveItem=(Ditem:Itecnology)=>{
         setSellected((prev)=>prev.filter((item)=> item.id != Ditem.id))
         toast.warning(`${Ditem.name} is un-sellected`, {
@@ -25,7 +25,7 @@ export default function SellectedCaed({item,sellected,setSellected }: sellectedC
     
         return (
             <>
-            <div className="flex justify-between items-center border border-amber-800 rounded-md p-2 m-2">
+            <div className="flex justify-between items-center border border-pink-800 rounded-md p-2 m-2">
                 <div className="flex gap-1.5">
                     <img src={item.icon} alt="" width={38} height={38}/>
                     <div>

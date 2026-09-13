@@ -37,7 +37,7 @@ export default function Techonology({ aItProp }: I_TechProps) {
                             setSellected={setSellected} />)
                     }
                 </div>
-                <div className=" md:flex-1 sticky top-12 max-h-[calc(100vh-5rem)] overflow-y-auto scrollbar-hide">
+                <div className="p-2 md:flex-1 sticky top-12 max-h-[calc(100vh-5rem)] overflow-y-auto scrollbar-hide">
                     <h2 className='font-bold text-black text-[1.25rem]'>Your Stack</h2>
                     <p className='text-gray-700'>{sellected.length} Techonology Selected</p>
                     <p className="border border-gray-100 text-center p-4">{sellected.length <1 && "Your stack is empty"}</p>

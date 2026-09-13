@@ -138,15 +138,6 @@
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
     "badge": "Essential"
-  },
-  {
-    "id": "vscode",
-    "name": "Visual Studio Code",
-    "category": "Tools",
-    "description": "A lightweight and extensible source-code editor widely used for modern software development.",
-    "icon": "https://cdn.simpleicons.org/visualstudiocode",
-    "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
   }
+ 
 ]
